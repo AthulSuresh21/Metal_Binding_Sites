@@ -1,0 +1,14 @@
+name: biometal
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - biopython
+  - requests
+  - pandas
+  - tqdm
+  - numpy
+  - pip
+  - pip:
+      - matplotlib   # optional, for the notebook plots
